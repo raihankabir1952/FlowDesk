@@ -1,36 +1,236 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FlowDesk
 
-## Getting Started
+> A modern SaaS-style Project & Task Management Dashboard built with Next.js and TypeScript.
 
-First, run the development server:
+FlowDesk is a frontend-focused project management dashboard designed to simulate a real-world SaaS application.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+It provides a clean and responsive workspace for managing projects, tasks, team members, analytics, and team conversations — with realistic UI interactions and persistent client-side data.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 **Live Website:** https://flow-desk-l3p2.vercel.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔗 **GitHub Repository:** https://github.com/raihankabir1952/FlowDesk
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📊 Dashboard
+- Workspace overview
+- Project and task statistics
+- Revenue overview chart
+- Project progress tracking
+- Upcoming tasks
+- Recent activity
+- Team overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📁 Project Management
+- Create new projects
+- Edit existing projects
+- Delete projects with confirmation
+- Search projects
+- Filter by status and priority
+- Sort projects
+- Project progress tracking
+- Load more functionality
+- LocalStorage persistence
 
-## Deploy on Vercel
+### ✅ Task Management
+- Create, edit and delete tasks
+- Task status management
+- Search and filtering
+- Priority and due date management
+- Task status updates
+- Confirmation modal for deletion
+- LocalStorage persistence
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 👥 Team Management
+- Team member overview
+- Search by name, role and email
+- Filter members by status
+- Member details modal
+- Online / Away / Offline status
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 📈 Analytics
+- Revenue analytics
+- Project completion statistics
+- Task status distribution
+- Time-range filtering
+- Interactive charts
+
+### 💬 Messages
+- Conversation list
+- Conversation search
+- Chat interface
+- Send messages
+- Unread message handling
+- Responsive mobile conversation navigation
+
+### ⚙️ Settings
+- Profile settings
+- Notification preferences
+- Appearance settings
+- Persistent settings using LocalStorage
+- Save feedback with toast notifications
+
+### 📱 Responsive UI
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+- Responsive sidebar/navigation
+- Mobile-friendly layouts and interactions
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind" alt="Frontend Technologies" />
+
+### Libraries & Tools
+
+<img src="https://skillicons.dev/icons?i=git,github,vercel" alt="Tools" />
+
+</div>
+
+| Technology | Purpose |
+| --- | --- |
+| ⚡ Next.js | React framework and application architecture |
+| ⚛️ React | Component-based UI development |
+| 🔷 TypeScript | Type-safe development |
+| 🎨 Tailwind CSS | Responsive UI styling |
+| 📊 Recharts | Analytics and dashboard charts |
+| 🎯 Lucide React | UI icons |
+| 🔔 React Hot Toast | User feedback and notifications |
+| 💾 LocalStorage | Client-side data persistence |
+| ▲ Vercel | Deployment |
+| 🐙 Git & GitHub | Version control |
+
+---
+
+## 🧩 Project Structure
+
+```text
+FlowDesk/
+│
+├── app/
+│   ├── analytics/
+│   ├── messages/
+│   ├── projects/
+│   ├── settings/
+│   ├── tasks/
+│   ├── team/
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── analytics/
+│   ├── dashboard/
+│   ├── layout/
+│   ├── messages/
+│   ├── projects/
+│   ├── settings/
+│   ├── tasks/
+│   ├── team/
+│   └── ui/
+│
+├── data/
+│   ├── analytics.ts
+│   ├── activities.ts
+│   ├── projects.ts
+│   ├── tasks.ts
+│   └── team.ts
+│
+├── types/
+│   ├── analytics.ts
+│   ├── project.ts
+│   ├── task.ts
+│   └── team.ts
+│
+├── public/
+│
+├── next.config.ts
+├── package.json
+└── tsconfig.json
+
+## 🎯 Project Highlights
+
+- ⚡ Built with Next.js, React, and TypeScript
+- 🎨 Modern and responsive SaaS dashboard UI
+- 🧩 Reusable and component-based architecture
+- 🔎 Search, filtering, sorting, and pagination
+- ✏️ Create, edit, and delete functionality
+- 💾 LocalStorage-based client-side data persistence
+- 📊 Interactive analytics and dashboard charts
+- 🔔 Toast notifications for user feedback
+- 📱 Fully responsive desktop, tablet, and mobile layouts
+- 🧭 Responsive sidebar and mobile navigation
+- 🪟 Reusable modal and UI components
+- 🚀 Deployed to Vercel for production
+
+## 📸 Screenshots
+
+### Dashboard
+
+> Main workspace overview with project statistics, revenue analytics, upcoming tasks, recent activity, and team overview.
+
+<!-- Add dashboard screenshot here -->
+
+### Projects
+
+> Project management interface with search, filters, sorting, progress tracking, and project actions.
+
+<!-- Add projects screenshot here -->
+
+### Tasks
+
+> Task management interface with status, priority, due date, search, filtering, and task actions.
+
+<!-- Add tasks screenshot here -->
+
+### Analytics
+
+> Interactive analytics dashboard with revenue, project completion, and task status visualizations.
+
+<!-- Add analytics screenshot here -->
+
+### Messages
+
+> Team communication interface with conversations, chat messages, and responsive mobile navigation.
+
+<!-- Add messages screenshot here -->
+
+---
+
+## 🔮 Future Improvements
+
+- 🔐 User authentication and authorization
+- 🗄️ Backend API and database integration
+- ⚡ Real-time messaging with WebSockets
+- 👥 Role-based access control
+- 🔔 Real-time notifications
+- ☁️ Cloud-based data persistence
+- 📊 Advanced analytics and reporting
+- 📝 Activity and audit logs
+
+---
+
+## 👨‍💻 Author
+
+### Raihan Kabir
+
+Frontend / Full-Stack Web Developer
+
+- 🌐 Live Project: https://flow-desk-l3p2.vercel.app/
+- 💻 GitHub: https://github.com/raihankabir1952
+
+---
+
+## 📄 License
+
+This project was created for portfolio and learning purposes.
