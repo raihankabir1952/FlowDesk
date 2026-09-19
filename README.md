@@ -204,7 +204,7 @@ FlowDesk/
 
 > Team communication interface with conversations, chat messages, and responsive mobile navigation.
 
-<!-- Add messages screenshot here -->
+![image alt](https://github.com/raihankabir1952/FlowDesk/blob/main/message.png?raw=true)
 
 ---
 
