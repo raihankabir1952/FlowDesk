@@ -180,7 +180,7 @@ FlowDesk/
 
 > Main workspace overview with project statistics, revenue analytics, upcoming tasks, recent activity, and team overview.
 
-![image alt](https://github.com/raihankabir1952/FlowDesk/blob/main/Screenshot%20(217).png?raw=true)
+
 
 ### Projects
 
@@ -192,7 +192,7 @@ FlowDesk/
 
 > Task management interface with status, priority, due date, search, filtering, and task actions.
 
-<!-- Add tasks screenshot here -->
+![image alt](https://github.com/raihankabir1952/FlowDesk/blob/main/Screenshot%20(217).png?raw=true)
 
 ### Analytics
 
