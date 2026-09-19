@@ -206,6 +206,12 @@ FlowDesk/
 
 ![image alt](https://github.com/raihankabir1952/FlowDesk/blob/main/message.png?raw=true)
 
+### Mobile View
+
+> Responsive.
+
+![image alt](https://github.com/raihankabir1952/FlowDesk/blob/main/mobile.png?raw=true)
+
 ---
 
 ## 🔮 Future Improvements
