@@ -186,7 +186,7 @@ FlowDesk/
 
 > Project management interface with search, filters, sorting, progress tracking, and project actions.
 
-<!-- Add projects screenshot here -->
+![image alt](https://github.com/raihankabir1952/FlowDesk/blob/main/projects.png?raw=true)
 
 ### Tasks
 
@@ -198,7 +198,7 @@ FlowDesk/
 
 > Interactive analytics dashboard with revenue, project completion, and task status visualizations.
 
-<!-- Add analytics screenshot here -->
+![image alt](https://github.com/raihankabir1952/FlowDesk/blob/main/analytics.png?raw=true)
 
 ### Messages
 
