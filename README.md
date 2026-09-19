@@ -157,6 +157,7 @@ FlowDesk/
 ├── next.config.ts
 ├── package.json
 └── tsconfig.json
+```
 
 ## 🎯 Project Highlights
 
@@ -179,7 +180,7 @@ FlowDesk/
 
 > Main workspace overview with project statistics, revenue analytics, upcoming tasks, recent activity, and team overview.
 
-<!-- Add dashboard screenshot here -->
+![image alt](https://github.com/raihankabir1952/FlowDesk/blob/main/Screenshot%20(217).png?raw=true)
 
 ### Projects
 
